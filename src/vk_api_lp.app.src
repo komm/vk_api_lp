@@ -1,0 +1,11 @@
+{application, vk_api_lp,
+ [
+  {description, "VK.COM Long Polling Client"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
